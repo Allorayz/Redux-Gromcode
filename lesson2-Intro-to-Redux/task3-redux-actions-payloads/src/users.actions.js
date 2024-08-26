@@ -4,9 +4,7 @@ export const DELETE_USER = "USERS/DELETE_USER";
 export const addUser = (userData) => {
   return {
     type: ADD_USER,
-    payload: {
-      userData,
-    },
+    payload: { userData },
   };
 };
 
